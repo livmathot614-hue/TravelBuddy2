@@ -34,7 +34,7 @@ div {
 }
 
 .card h2 {
-  font-family: 'DynaPuff', cursive !important;
+  font-family: 'DynaPuff', system-ui !important;
 
   font-size: 40px;
   font-weight: normal;
@@ -44,7 +44,7 @@ div {
 
 .card p {
   margin-top: 15px;
-  font-family:'DynaPuff', system-ui;
+  font-family:'DynaPuff', system-ui !important;
 }
 
 .card img {
