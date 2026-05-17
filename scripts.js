@@ -1,5 +1,4 @@
 function saveInterests() {
-alert("Saving interests!");
   const selectedInterests = [];
 
   if (document.getElementById("food").checked) {
