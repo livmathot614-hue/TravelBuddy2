@@ -88,8 +88,8 @@ if (food.checked) {
   if (hiking.checked) {
     recommendations.innerHTML += `
       <div class="card">
-        <h2>Bali</h2>
-        <p>Relaxing wellness retreats and beaches.</p>
+        <h2>Imperial Palace Outer Loop</h2>
+        <p>A 3.1 mile hike thats loops around the entire palace.</p>
       </div>
     `;
   }
