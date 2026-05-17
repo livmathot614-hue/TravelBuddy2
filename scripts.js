@@ -106,6 +106,9 @@ function loadRecommendations() {
         <h2>Meguro Museum of Art</h2>
         <img src="./images/meguro.png" alt="Meguro Museum of Art">
         <p>The Meguro Museum of Art, Tokyo, is a tranquil, community-focused cultural space in the Meguro ward. </p>
+        <a href="meguro.html">
+  <button>Select</button>
+</a>
       </div>
     `;
   }
