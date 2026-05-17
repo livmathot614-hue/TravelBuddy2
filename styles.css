@@ -145,3 +145,12 @@ button:hover {
 
   z-index: 999;
 }
+.cities-title {
+  font-family: 'DynaPuff', cursive;
+
+  font-size: 64px;
+
+  margin-top: 80px;
+
+  text-align: center;
+}
