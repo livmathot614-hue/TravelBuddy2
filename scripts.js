@@ -90,8 +90,9 @@ function loadRecommendations() {
 
     recommendations.innerHTML += `
       <div class="card">
-        <h2>Kyoto</h2>
-        <p>Beautiful temples and peaceful nature.</p>
+        <h2>Shinjuku Gyoen Park</h2>
+        <img src="./images/shinjuku.png" alt="Shinjuku Gyoen Park">
+        <p>One of Tokyo's most famous parks, known for its cherry blossoms and walking paths.</p>
       </div>
     `;
   }
