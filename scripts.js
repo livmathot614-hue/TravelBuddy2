@@ -177,6 +177,9 @@ function loadRecommendations() {
         <h2>Tokyo Joypolis</h2>
         <img src="./images/joypolis.png" alt="Tokyo Joypolis">
         <p>A massive indoor amusment park, with VR rides, rollercoaster, and an arcade.</p>
+        <a href="joypolis.html">
+  <button>Select</button>
+</a>
       </div>
     `;
   }
