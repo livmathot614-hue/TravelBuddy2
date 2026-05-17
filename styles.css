@@ -111,3 +111,6 @@ button:hover {
 
   margin-bottom: 20px;
 }
+.welcome-subtitle {
+  font-family: 'DynaPuff', system-ui !important;
+}
