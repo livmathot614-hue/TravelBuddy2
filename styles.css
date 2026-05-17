@@ -154,3 +154,26 @@ button:hover {
 
   text-align: center;
 }
+.interests-form {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 18px;
+
+  width: 100%;
+}
+
+.interests-form label {
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 22px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
