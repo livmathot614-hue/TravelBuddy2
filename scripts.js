@@ -129,8 +129,9 @@ function loadRecommendations() {
 
     recommendations.innerHTML += `
       <div class="card">
-        <h2>Tokyo Walking Tour</h2>
-        <p>Beautiful walking routes and city hikes.</p>
+        <h2>Imperial Palace East Gardens</h2>
+         <img src="./images/imperial.png" alt="Imperial Palace Gardens">
+        <p>A 3.1 mile walking loop around the palace grounds.</p>
       </div>
     `;
   }
