@@ -10,28 +10,45 @@ function getRecommendations() {
   const activities = document.getElementById("activities");
   const adventures = document.getElementById("adventures");
 
-  console.log(food.checked);
-  console.log(nature.checked);
-  console.log(art.checked);
-  console.log(culture.checked);
-  console.log(hiking.checked);
-  console.log(wellness.checked);
-  console.log(entertainment.checked);
-  console.log(activities.checked);
-  console.log(adventures.checked);
+  const recommendations =
+    document.getElementById("recommendations");
 
-  function getRecommendations() {
-
-  const food = document.getElementById("food");
-  const nature = document.getElementById("nature");
+  recommendations.innerHTML = "";
 
   if (food.checked) {
-    alert("You should visit Tokyo!");
+    recommendations.innerHTML += `
+      <div class="card">
+        <h2>Tokyo</h2>
+        <p>Perfect for food lovers and nightlife.</p>
+      </div>
+    `;
   }
 
   if (nature.checked) {
-    alert("You should visit Kyoto!");
+    recommendations.innerHTML += `
+      <div class="card">
+        <h2>Kyoto</h2>
+        <p>Beautiful temples and peaceful nature.</p>
+      </div>
+    `;
   }
 
+  if (art.checked) {
+    recommendations.innerHTML += `
+      <div class="card">
+        <h2>Paris</h2>
+        <p>Famous museums and art culture.</p>
+      </div>
+    `;
+  }
+
+  if (wellness.checked) {
+    recommendations.innerHTML += `
+      <div class="card">
+        <h2>Bali</h2>
+        <p>Relaxing wellness retreats and beaches.</p>
+      </div>
+    `;
+  }
 
 }
