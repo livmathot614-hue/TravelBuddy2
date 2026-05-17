@@ -181,15 +181,13 @@ function loadRecommendations() {
 
 
 
-  
- if (interests.includes("shopping")) {
+if (interests.includes("shopping")) {
 
-    recommendations.innerHTML += `
-      <div class="card">
-        <h2>Togoshi Ginza Shopping Street</h2>
-        <img src="./images/togoshi.png" alt="Togoshi Ginza Shopping Street">
-        <p>Sprinkled along its length are approximately 400 different shops, from used furniture shops, to model shops, pharmacies, izakaya, cafes and supermarkets.</p>
-      </div>
-    `;
+  recommendations.innerHTML += `
+    <div class="card">
+      <h2>Togoshi Ginza Shopping Street</h2>
+      <p>Popular shopping street in Tokyo.</p>
+    </div>
+  `;
   }
 }
