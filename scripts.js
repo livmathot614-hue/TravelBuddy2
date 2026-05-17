@@ -1,21 +1,67 @@
-function getRecommendations() {
+function saveInterests() {
 
-  const food = document.getElementById("food");
-  const nature = document.getElementById("nature");
-  const art = document.getElementById("art");
-  const culture = document.getElementById("culture");
-  const hiking = document.getElementById("hiking");
-  const wellness = document.getElementById("wellness");
-  const entertainment = document.getElementById("entertainment");
-  const activities = document.getElementById("activities");
-  const adventures = document.getElementById("adventures");
+  const selectedInterests = [];
+
+  if (document.getElementById("food").checked) {
+    selectedInterests.push("food");
+  }
+
+  if (document.getElementById("nature").checked) {
+    selectedInterests.push("nature");
+  }
+
+  if (document.getElementById("art").checked) {
+    selectedInterests.push("art");
+  }
+
+  if (document.getElementById("culture").checked) {
+    selectedInterests.push("culture");
+  }
+
+  if (document.getElementById("hiking").checked) {
+    selectedInterests.push("hiking");
+  }
+
+  if (document.getElementById("wellness").checked) {
+    selectedInterests.push("wellness");
+  }
+
+  if (document.getElementById("entertainment").checked) {
+    selectedInterests.push("entertainment");
+  }
+
+  if (document.getElementById("activities").checked) {
+    selectedInterests.push("activities");
+  }
+
+  if (document.getElementById("adventures").checked) {
+    selectedInterests.push("adventures");
+  }
+
+  localStorage.setItem(
+    "interests",
+    JSON.stringify(selectedInterests)
+  );
+
+  window.location.href = "recommendations.html";
+}
+
+
+
+function loadRecommendations() {
+
+  const interests =
+    JSON.parse(localStorage.getItem("interests"));
 
   const recommendations =
     document.getElementById("recommendations");
 
   recommendations.innerHTML = "";
 
-  if (food.checked) {
+
+
+  if (interests.includes("food")) {
+
     recommendations.innerHTML += `
       <div class="card">
         <h2>Tokyo</h2>
@@ -24,7 +70,10 @@ function getRecommendations() {
     `;
   }
 
-  if (nature.checked) {
+
+
+  if (interests.includes("nature")) {
+
     recommendations.innerHTML += `
       <div class="card">
         <h2>Kyoto</h2>
@@ -33,7 +82,10 @@ function getRecommendations() {
     `;
   }
 
-  if (art.checked) {
+
+
+  if (interests.includes("art")) {
+
     recommendations.innerHTML += `
       <div class="card">
         <h2>Paris</h2>
@@ -42,7 +94,22 @@ function getRecommendations() {
     `;
   }
 
-  if (wellness.checked) {
+
+
+  if (interests.includes("culture")) {
+
+    recommendations.innerHTML += `
+      <div class="card">
+        <h2>Rome</h2>
+        <p>Historic landmarks and rich culture.</p>
+      </div>
+    `;
+  }
+
+
+
+  if (interests.includes("wellness")) {
+
     recommendations.innerHTML += `
       <div class="card">
         <h2>Bali</h2>
@@ -50,46 +117,51 @@ function getRecommendations() {
       </div>
     `;
   }
-if (food.checked) {
-    recommendations.innerHTML += `
-      <div class="card">
-        <h2>Tokyo</h2>
-        <p>Perfect for food lovers and nightlife.</p>
-      </div>
-    `;
-  }
 
-  if (adventures.checked) {
-    recommendations.innerHTML += `
-      <div class="card">
-        <h2>Kyoto</h2>
-        <p>Beautiful temples and peaceful nature.</p>
-      </div>
-    `;
-  }
 
-  if (culture.checked) {
-    recommendations.innerHTML += `
-      <div class="card">
-        <h2>Paris</h2>
-        <p>Famous museums and art culture.</p>
-      </div>
-    `;
-  }
 
-  if (activities.checked) {
-    recommendations.innerHTML += `
-      <div class="card">
-        <h2>Bali</h2>
-        <p>Relaxing wellness retreats and beaches.</p>
-      </div>
-    `;
-  }
-  if (hiking.checked) {
+  if (interests.includes("hiking")) {
+
     recommendations.innerHTML += `
       <div class="card">
         <h2>Imperial Palace Outer Loop</h2>
-        <p>A 3.1 mile hike thats loops around the entire palace.</p>
+        <p>A beautiful walking trail in Tokyo.</p>
+      </div>
+    `;
+  }
+
+
+
+  if (interests.includes("entertainment")) {
+
+    recommendations.innerHTML += `
+      <div class="card">
+        <h2>New York City</h2>
+        <p>Broadway shows and endless entertainment.</p>
+      </div>
+    `;
+  }
+
+
+
+  if (interests.includes("activities")) {
+
+    recommendations.innerHTML += `
+      <div class="card">
+        <h2>Singapore</h2>
+        <p>Packed with exciting activities and attractions.</p>
+      </div>
+    `;
+  }
+
+
+
+  if (interests.includes("adventures")) {
+
+    recommendations.innerHTML += `
+      <div class="card">
+        <h2>Queenstown</h2>
+        <p>Adventure capital with hiking and extreme sports.</p>
       </div>
     `;
   }
