@@ -183,8 +183,9 @@ function loadRecommendations() {
 
     recommendations.innerHTML += `
       <div class="card">
-        <h2>Queenstown</h2>
-        <p>Adventure capital with hiking and extreme sports.</p>
+        <h2>Shibuya Sky</h2>
+        <img src="./images/shibuya.png" alt="Shibuya Sky">
+        <p>An open-air rooftop observation deck, great for taking sunset photos.</p>
       </div>
     `;
   }
