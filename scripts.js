@@ -186,7 +186,8 @@ if (interests.includes("shopping")) {
   recommendations.innerHTML += `
     <div class="card">
       <h2>Togoshi Ginza Shopping Street</h2>
-      <p>Popular shopping street in Tokyo.</p>
+      <img src="./images/togoshi.png" alt="Togoshi Ginza Shopping Street">
+      <p>Popular shopping street in Tokyo, with more than 400 shops.</p>
     </div>
   `;
   }
