@@ -99,6 +99,7 @@ function loadRecommendations() {
     recommendations.innerHTML += `
       <div class="card">
         <h2>Meguro Museum of Art</h2>
+        <img src="./images/meguro.png" alt="Meguro Museum of Art">
         <p>The Meguro Museum of Art, Tokyo is a tranquil, community-focused cultural space in the Meguro ward. </p>
       </div>
     `;
@@ -111,6 +112,7 @@ function loadRecommendations() {
     recommendations.innerHTML += `
       <div class="card">
         <h2>Nezu Shrine</h2>
+        <img src="./images/nezu.png" alt="Nezu Shrine">
         <p>One of Tokyos oldest and most beautiful Shinto shrines, located in the historic Bunkyo ward.</p>
       </div>
     `;
