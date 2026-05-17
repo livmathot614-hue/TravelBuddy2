@@ -157,7 +157,7 @@ function loadRecommendations() {
     recommendations.innerHTML += `
       <div class="card">
         <h2>Suzumoto Engeijo Hall</h2>
-        <img src="./images/jazz.png" alt="Jazz Inn Uncle Tom">
+        <img src="./images/suzumoto.png" alt="Suzumoto Engeijo Hall">
         <p>One of Tokyo's historic rakugo theaters, originating in 1857 (the Ansei Era) as a storytelling venue known as "Gundanzeki Honmokutei.</p>
       </div>
     `;
