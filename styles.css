@@ -9,6 +9,10 @@ body {
 
   margin: 0;
   padding: 0;
+
+  min-height: 100vh;
+
+  overflow-y: auto;
 }
 
 h1 {
@@ -36,8 +40,10 @@ div {
   text-align: center;
 
   font-family: Arial, sans-serif;
+}
 
-  min-height: 650px;
+.interests-card {
+  min-height: 750px;
 }
 
 .card h2 {
