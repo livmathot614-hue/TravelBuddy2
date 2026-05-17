@@ -37,6 +37,11 @@ function saveInterests() {
     selectedInterests.push("adventures");
   }
 
+
+  if (document.getElementById("shopping").checked) {
+    selectedInterests.push("shopping");
+  }
+
   localStorage.setItem(
     "interests",
     JSON.stringify(selectedInterests)
@@ -93,8 +98,8 @@ function loadRecommendations() {
 
     recommendations.innerHTML += `
       <div class="card">
-        <h2>Paris</h2>
-        <p>Famous museums and art culture.</p>
+        <h2>Meguro Museum of Art</h2>
+        <p>The Meguro Museum of Art, Tokyo is a tranquil, community-focused cultural space in the Meguro ward. </p>
       </div>
     `;
   }
@@ -105,8 +110,8 @@ function loadRecommendations() {
 
     recommendations.innerHTML += `
       <div class="card">
-        <h2>Rome</h2>
-        <p>Historic landmarks and rich culture.</p>
+        <h2>Nezu Shrine</h2>
+        <p>One of Tokyos oldest and most beautiful Shinto shrines, located in the historic Bunkyo ward.</p>
       </div>
     `;
   }
@@ -172,4 +177,16 @@ function loadRecommendations() {
     `;
   }
 
+
+
+  
+ if (interests.includes("shopping")) {
+
+    recommendations.innerHTML += `
+      <div class="card">
+        <h2>Queenstown</h2>
+        <p>Adventure capital with hiking and extreme sports.</p>
+      </div>
+    `;
+  }
 }
