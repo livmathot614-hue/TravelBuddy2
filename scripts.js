@@ -77,6 +77,9 @@ function loadRecommendations() {
         <h2>Jazz Inn Uncle Tom</h2>
           <img src="./images/jazz.png" alt="Jazz Inn Uncle Tom">
         <p>A cafe, with over 3,000 jazz records, is an authentic listening bar environment with great food.</p>
+        <a href="jazz.html">
+  <button>Select</button>
+</a>
       </div>
     `;
   }
@@ -165,7 +168,7 @@ function loadRecommendations() {
 
     recommendations.innerHTML += `
       <div class="card">
-        <h2>Jazz Inn Uncle Tom</h2>
+        <h2>Tokyo</h2>
         <img src="./images/jazz.png" alt="Jazz Inn Uncle Tom">
         <p>A cafe, with over 3,000 jazz records, is an authentic listening bar environment with great food.</p>
       </div>
