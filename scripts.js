@@ -161,8 +161,8 @@ function loadRecommendations() {
 
     recommendations.innerHTML += `
       <div class="card">
-        <h2>Singapore</h2>
-        <p>Packed with exciting activities and attractions.</p>
+        <h2>Jazz Inn Uncle Tom</h2>
+        <p>A cafe, with over 3,000 jazz records, is an authentic listening bar environment with great food.</p>
       </div>
     `;
   }
