@@ -20,4 +20,18 @@ function getRecommendations() {
   console.log(activities.checked);
   console.log(adventures.checked);
 
+  function getRecommendations() {
+
+  const food = document.getElementById("food");
+  const nature = document.getElementById("nature");
+
+  if (food.checked) {
+    alert("You should visit Tokyo!");
+  }
+
+  if (nature.checked) {
+    alert("You should visit Kyoto!");
+  }
+
+
 }
