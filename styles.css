@@ -112,5 +112,11 @@ button:hover {
   margin-bottom: 20px;
 }
 .welcome-subtitle {
-  font-family: 'DynaPuff', system-ui !important;
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 22px;
+
+  text-align: center;
+
+  margin-bottom: 30px;
 }
