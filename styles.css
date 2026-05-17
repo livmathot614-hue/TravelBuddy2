@@ -39,12 +39,17 @@ div {
   font-size: 40px;
   font-weight: normal;
 
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
 .card p {
-  margin-top: 15px;
-  font-family:'Poppins', sans-serif !important;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  font-family: 'Poppins', sans-serif !important;
+
+  font-size: 18px;
 }
 
 .card img {
@@ -68,6 +73,10 @@ button {
   padding: 8px 14px;
 
   cursor: pointer;
+}
+
+.card button {
+  margin-bottom: 10px;
 }
 
 button:hover {
