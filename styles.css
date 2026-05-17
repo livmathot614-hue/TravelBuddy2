@@ -50,4 +50,13 @@ button:hover {
 .card img {
   width: 100%;
   border-radius: 16px;
+  .card h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.card p {
+  text-align: center;
+  width: 100%;
+}
 }
