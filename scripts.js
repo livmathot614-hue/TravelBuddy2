@@ -115,6 +115,9 @@ function loadRecommendations() {
         <h2>Nezu Shrine</h2>
         <img src="./images/nezu.png" alt="Nezu Shrine">
         <p>One of Tokyos oldest and most beautiful Shinto shrines, located in the historic Bunkyo ward.</p>
+        <a href="nezu.html">
+  <button>Select</button>
+</a>
       </div>
     `;
   }
@@ -150,7 +153,7 @@ function loadRecommendations() {
 
     recommendations.innerHTML += `
       <div class="card">
-        <h2>New York City</h2>
+        <h2>Suzumoto Engeijo</h2>
         <p>Broadway shows and endless entertainment.</p>
       </div>
     `;
