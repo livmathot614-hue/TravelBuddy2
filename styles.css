@@ -114,7 +114,7 @@ button:hover {
   margin-bottom: 20px;
 }
 .welcome-subtitle {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 
   font-size: 22px;
 
