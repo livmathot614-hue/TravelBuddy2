@@ -186,8 +186,9 @@ function loadRecommendations() {
 
     recommendations.innerHTML += `
       <div class="card">
-        <h2>Queenstown</h2>
-        <p>Adventure capital with hiking and extreme sports.</p>
+        <h2>Togoshi Ginza Shopping Street</h2>
+        <img src="./images/togoshi.png" alt="Togoshi Ginza Shopping Street">
+        <p>Sprinkled along its length are aproximately 400 different shops.</p>
       </div>
     `;
   }
