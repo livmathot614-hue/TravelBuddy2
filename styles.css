@@ -125,15 +125,15 @@ button:hover {
 .interests-subtitle {
   font-family:'Poppins', sans-serif !important;
 }
+.card label {
+  font-family: 'Poppins', sans-serif !important;
+
+  font-size: 20px;
+}
 .city-subtitle {
   font-family: 'Poppins', sans-serif !important;
 
   font-size: 22px;
 
   text-align: center;
-}
-.card label {
-  font-family: 'Poppins', sans-serif !important;
-
-  font-size: 20px;
 }
