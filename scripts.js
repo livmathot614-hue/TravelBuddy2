@@ -188,7 +188,7 @@ function loadRecommendations() {
       <div class="card">
         <h2>Togoshi Ginza Shopping Street</h2>
         <img src="./images/togoshi.png" alt="Togoshi Ginza Shopping Street">
-        <p>Sprinkled along its length are aproximately 400 different shops.</p>
+        <p>Sprinkled along its length are aproximately 400 different shops, from used furniture shops, to model shops, pharmacies, izakaya, cafes and supermarkets.</p>
       </div>
     `;
   }
