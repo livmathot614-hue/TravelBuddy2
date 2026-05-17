@@ -131,8 +131,9 @@ function loadRecommendations() {
 
     recommendations.innerHTML += `
       <div class="card">
-        <h2>Bali</h2>
-        <p>Relaxing wellness retreats and beaches.</p>
+        <h2>Thermae-Yu</h2>
+        <img src="./images/thermae.png" alt="Nezu Shrine">
+        <p>One of Tokyo's largest and most luxurious hot spring (onsen) complexes.</p>
       </div>
     `;
   }
