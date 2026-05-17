@@ -146,19 +146,11 @@ button:hover {
   z-index: 999;
 }
 .cities-title {
-  font-family: 'DynaPuff', cursive;
+  font-family: 'DynaPuff', system-ui !important;
 
-  font-size: 64px;
+  font-size: 64px !important;
 
-  margin-top: 80px;
+  margin-top: 80px !important;
 
   text-align: center;
-}
-.local-continue-button {
-  position: fixed;
-
-  bottom: 20px;
-  right: 20px;
-
-  z-index: 999;
 }
