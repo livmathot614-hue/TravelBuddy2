@@ -94,7 +94,7 @@ button:hover {
   margin-top: 20px;
 }
 .welcome-title {
-  font-family: 'DynaPuff', system-ui;
+  font-family: 'DynaPuff', system-ui !important;
 
   font-size: 60px;
 
