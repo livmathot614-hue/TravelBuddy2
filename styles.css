@@ -122,12 +122,18 @@ button:hover {
 
   margin-bottom: 30px;
 }
-.interests-card {
-  font-family:'Poppins', sans-serif !important;
-}
 .interests-subtitle {
   font-family:'Poppins', sans-serif !important;
 }
-.cities-subtitle{
+.city-subtitle {
   font-family: 'Poppins', sans-serif !important;
+
+  font-size: 22px;
+
+  text-align: center;
+}
+.card label {
+  font-family: 'Poppins', sans-serif !important;
+
+  font-size: 20px;
 }
