@@ -42,7 +42,7 @@ div {
 .card img {
   width: 100%;
   border-radius: 16px;
-
+  text-align: center;
   display: block;
 }
 
