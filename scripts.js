@@ -93,6 +93,9 @@ function loadRecommendations() {
         <h2>Shinjuku Gyoen Park</h2>
         <img src="./images/shinjuku.png" alt="Shinjuku Gyoen Park">
         <p>One of Tokyo's most famous parks, known for its cherry blossoms and walking paths.</p>
+        <a href="shinjuku.html">
+  <button>Select</button>
+</a>
       </div>
     `;
   }
@@ -138,6 +141,9 @@ function loadRecommendations() {
         <h2>Thermae-Yu</h2>
         <img src="./images/thermae.png" alt="Thermae-Yu">
         <p>One of Tokyo's largest and most luxurious hot spring (onsen) complexes.</p>
+        <a href="thermae.html">
+  <button>Select</button>
+</a>
       </div>
     `;
   }
@@ -151,6 +157,9 @@ function loadRecommendations() {
         <h2>Imperial Palace East Gardens</h2>
          <img src="./images/imperial.png" alt="Imperial Palace Gardens">
         <p>A 3.1 mile walking loop around the palace grounds.</p>
+        <a href="imperial.html">
+  <button>Select</button>
+</a>
       </div>
     `;
   }
@@ -164,7 +173,10 @@ function loadRecommendations() {
         <h2>Suzumoto Engeijo Hall</h2>
         <img src="./images/suzumoto.png" alt="Suzumoto Engeijo Hall">
         <p>One of Tokyo's historic rakugo theaters, originating in 1857 (the Ansei Era) as a storytelling venue known as "Gundanzeki Honmokutei.</p>
-      </div>
+      <a href="suzumoto.html">
+  <button>Select</button>
+</a>
+        </div>
     `;
   }
 
@@ -193,6 +205,9 @@ function loadRecommendations() {
         <h2>Shibuya Sky</h2>
         <img src="./images/shibuya.png" alt="Shibuya Sky">
         <p>An open-air rooftop observation deck, great for taking sunset photos.</p>
+        <a href="shibuya.html">
+  <button>Select</button>
+</a>
       </div>
     `;
   }
@@ -206,6 +221,9 @@ if (interests.includes("shopping")) {
       <h2>Togoshi Ginza Shopping Street</h2>
       <img src="./images/togoshi.png" alt="Togoshi Ginza Shopping Street">
       <p>Popular shopping street in Tokyo, with more than 400 shops.</p>
+      <a href="togoshi.html">
+  <button>Select</button>
+</a>
     </div>
   `;
   }
